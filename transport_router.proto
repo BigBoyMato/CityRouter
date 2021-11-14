@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+import "graph.proto";
+
+package serialize;
+
+message EdgeInfo{
+    bytes name = 1;
+    Edge edge = 2;
+    int32 span_count = 3;
+    double time = 4;
+}
+
+message Vertexes {
+    int32 start_wait = 1;
+    int32 end_wait = 2;
+}
+
+message RouterSettings {
+    int32 bus_wait_time = 1;
+    double bus_velocity = 2;
+}
+
+message Router {
+    RouterSettings router_settings = 1;
+    Graph graph = 2;
+    repeated EdgeInfo edges = 3;
+    repeated Vertexes vertexes = 4;
+}
