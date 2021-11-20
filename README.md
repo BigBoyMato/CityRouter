@@ -13,5 +13,4 @@ Usage:
 Requirements:
 - Protobuf 3
 - CMake
-- MinGW
 - C++20
