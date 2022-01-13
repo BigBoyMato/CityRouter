@@ -7,6 +7,7 @@ Output is given as .json and .svg format. The project was supervised by Yandex.P
 **Usage:**
 -------
 
+0. Downloading, installation and setting of all needed programm components
 1. variant presented in main
 2. "make_base": create transport catalogue database
 3. "process_requests": build optimal routes or get info
