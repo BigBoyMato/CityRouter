@@ -2,8 +2,7 @@ CityRouter
 =============
 
 A back-end implementation of a transport routing system working with JSON-type requests. Program is two-staged and has 2 variants of input processing: first one is responsible for building a transport catalogue database and the second one does all the needed work to process requests and give any information on optimal routes, buses or stops.
-Output is given as .json and .svg format. The program is made only using standart library (as well as JSON and SVG implementations).
-
+Output is given as .json and .svg format. The project was supervised by Yandex.Praktikum courses.
 
 **Usage:**
 -------
@@ -16,7 +15,7 @@ Output is given as .json and .svg format. The program is made only using standar
 **System requirements:**
 -------
 
-1. C++20
+1. C++20 (STL)
 2. GCC (MinGW-w64) 11.2.0
 
 
