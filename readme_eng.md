@@ -1,16 +1,36 @@
-**CityRouter**
+CityRouter
+=============
+
+A back-end implementation of a transport routing system working with JSON-type requests. Program is two-staged and has 2 variants of input processing: first one is responsible for building a transport catalogue database and the second one does all the needed work to process requests and give any information on optimal routes, buses or stops.
+Output is given as .json and .svg format. The program is made only using standart library (as well as JSON and SVG implementations).
 
 
+**Usage:**
+-------
 
-Transport router working with JSON-type requests as input is used to build optimal transport routing throw graph map.
-Output is given as JSON+SVG format. The program is made only with standart library (as well as JSON and SVG implementations).
+1. variant presented in main
+2. "make_base": create transport catalogue database
+3. "process_requests": build optimal routes or get info
 
-Usage:
-- variant presented in main
-- "make_base": create json-database with protobuf3 
-- "process_requests": deserialization and building output-requests 
 
-Requirements:
-- Protobuf 3
-- CMake
-- C++20
+**System requirements:**
+-------
+
+1. C++20
+2. GCC (MinGW-w64) 11.2.0
+
+
+**TO DO:**
+-------
+
+1. Add city sattellite-map layer
+2. Test real city maps and coordinates
+3. Create desktop application
+
+
+**Tech stack:**
+-------
+
+1. CMake 3.22.0
+2. [Protobuf-cpp 3.18.1](https://github.com/protocolbuffers/protobuf)
+
