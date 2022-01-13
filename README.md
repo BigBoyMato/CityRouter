@@ -2,15 +2,6 @@
 
 City router implementation
 
-Transport router working with JSON-type requests as input is used to build optimal transport routing throw graph map.
-Output is given as JSON+SVG format. The program is made only with standart library (as well as JSON and SVG implementations).
-
-Usage:
-- variant presented in main
-- "make_base": create json-database with protobuf3 
-- "process_requests": deserialization and building output-requests 
-
-Requirements:
-- Protobuf 3
-- CMake
-- C++20
+Multilanguage README Pattern
+[![eng](https://img.shields.io/badge/lang-eng-blue.svg)](https://github.com/holodnii/CityRouter/blob/main/readme_eng.md)
+[![rus](https://img.shields.io/badge/lang-rus-red.svg)](https://github.com/holodnii/CityRouter/blob/main/readme_rus.md)
