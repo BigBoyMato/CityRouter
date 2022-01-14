@@ -7,4 +7,4 @@ README
 
 UML
 
-[![eng](https://img.shields.io/badge/lang-eng-blue.svg)](https://github.com/holodnii/CityRouter/blob/main/CityRouter_UML.svg)
+[![eng](https://img.shields.io/badge/lang-eng-blue.svg)](https://github.com/holodnii/CityRouter/blob/main/UML.svg)
